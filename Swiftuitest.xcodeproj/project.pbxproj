@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530F637F2B24C75100277352 /* SecoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530F637E2B24C75100277352 /* SecoundView.swift */; };
 		5347DD6B2B24C222006F1789 /* SwiftuitestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347DD6A2B24C222006F1789 /* SwiftuitestApp.swift */; };
 		5347DD6D2B24C222006F1789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347DD6C2B24C222006F1789 /* ContentView.swift */; };
 		5347DD6F2B24C224006F1789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5347DD6E2B24C224006F1789 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530F637E2B24C75100277352 /* SecoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundView.swift; sourceTree = "<group>"; };
 		5347DD672B24C222006F1789 /* Swiftuitest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftuitest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347DD6A2B24C222006F1789 /* SwiftuitestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuitestApp.swift; sourceTree = "<group>"; };
 		5347DD6C2B24C222006F1789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		5347DD692B24C222006F1789 /* Swiftuitest */ = {
 			isa = PBXGroup;
 			children = (
+				530F637E2B24C75100277352 /* SecoundView.swift */,
 				5347DD6A2B24C222006F1789 /* SwiftuitestApp.swift */,
 				5347DD6C2B24C222006F1789 /* ContentView.swift */,
 				5347DD6E2B24C224006F1789 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530F637F2B24C75100277352 /* SecoundView.swift in Sources */,
 				5347DD6D2B24C222006F1789 /* ContentView.swift in Sources */,
 				5347DD6B2B24C222006F1789 /* SwiftuitestApp.swift in Sources */,
 			);
