@@ -9,8 +9,10 @@ import SwiftUI
 
 struct SecoundView: View {
     var body: some View {
-        Image("ハンニャバル")
+        Image("かさお")
             .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 4)) // オプション: 白い円形の枠を追加する
+            .shadow(radius: 10) // オプション: 影を追加する
     }
 }
 

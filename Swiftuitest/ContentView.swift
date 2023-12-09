@@ -9,25 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("こんにちは")
-                .font(.title)
-            HStack {
-                Text(/*@START_MENU_TOKEN@*/"おはよう"/*@END_MENU_TOKEN@*/)
-                    .font(.subheadline)
-                Spacer()
-                Text("さようなら")
-                    .font(.subheadline)
+        VStack{
+            MapView()
+                .frame(height: 300)
+
+            VStack(alignment: .leading) {
+                Text("Turtle Rock")
+                    .font(.title)
+                HStack {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
+                }
             }
-            
+            .padding()
         }
-        .padding()
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

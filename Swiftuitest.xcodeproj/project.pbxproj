@@ -12,6 +12,7 @@
 		5347DD6D2B24C222006F1789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347DD6C2B24C222006F1789 /* ContentView.swift */; };
 		5347DD6F2B24C224006F1789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5347DD6E2B24C224006F1789 /* Assets.xcassets */; };
 		5347DD722B24C224006F1789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5347DD712B24C224006F1789 /* Preview Assets.xcassets */; };
+		53D4C1D12B24DF8F0052F308 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D4C1D02B24DF8F0052F308 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5347DD6C2B24C222006F1789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5347DD6E2B24C224006F1789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5347DD712B24C224006F1789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53D4C1D02B24DF8F0052F308 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		5347DD692B24C222006F1789 /* Swiftuitest */ = {
 			isa = PBXGroup;
 			children = (
+				53D4C1D02B24DF8F0052F308 /* MapView.swift */,
 				530F637E2B24C75100277352 /* SecoundView.swift */,
 				5347DD6A2B24C222006F1789 /* SwiftuitestApp.swift */,
 				5347DD6C2B24C222006F1789 /* ContentView.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				530F637F2B24C75100277352 /* SecoundView.swift in Sources */,
+				53D4C1D12B24DF8F0052F308 /* MapView.swift in Sources */,
 				5347DD6D2B24C222006F1789 /* ContentView.swift in Sources */,
 				5347DD6B2B24C222006F1789 /* SwiftuitestApp.swift in Sources */,
 			);
